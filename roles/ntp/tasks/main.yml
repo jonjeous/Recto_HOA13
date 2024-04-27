@@ -13,7 +13,7 @@
     create: yes
   with_items:
     - "server NTP_SERVER iburst"
-    - "allow 192.168.56.128/24"
+    - "allow 192.168.56.129/24"
   notify: restart chrony
 
 - name: Ensure chrony service is enabled and started
