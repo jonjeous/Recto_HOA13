@@ -12,5 +12,5 @@
   lineinfile:
     path: /etc/memcached.conf
     regexp: '^(-l\s+)'
-    line: '\g<1>10.0.0.11'
+    line: '\g<1>192.168.56.114'
   notify: restart memcached
